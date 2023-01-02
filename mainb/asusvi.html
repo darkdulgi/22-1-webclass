@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>다사와쇼핑몰</title>
+    <style>
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 0px;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        header div {
+            display: inline-block;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+        }
+
+        nav div {
+            padding: 3%;
+            display: block;
+            color: white;
+            font-size: 20px;
+        }
+
+        #tomain {
+            padding-left: 15%;
+            background-color: rgb(1, 155, 22);
+            margin-bottom: 5%;
+        }
+
+        #menu {
+            background-color: rgb(80, 80, 255);
+            margin-bottom: 15%;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav li {
+            margin-bottom: 5%;
+        }
+
+        nav li:hover {
+            background-color: rgb(45, 45, 255);
+        }
+
+        section {
+            width: 80%;
+            float: left;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        table {
+            margin: 3%;
+        }
+        td{
+            vertical-align: top;
+        }
+        td img {
+            width: 100%;
+        }
+        td li{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../logo.png" width="30%">
+        <div>
+            <input type="text"> <input type="submit" value="검색">
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <div id="tomain"><a href="../main.html">메인 메뉴</a></div>
+        <div id="menu">
+            <ul>
+                <li><a href="../gpu/gpu.html">그래픽카드</a></li>
+                <li><a href="../cpu/cpu.html">CPU</a></li>
+                <li><a href="../mainb/mainboard.html">메인보드</a></li>
+                <li><a href="../power/power.html">파워서플라이</a></li>
+            </ul>
+        </div>
+        <img src="../ad.gif" width="100%">
+    </nav>
+    <section>
+        <table>
+            <tr>
+                <td width="50%">
+                    <img src="asusvi.jpg">
+                </td>
+                <td>
+                    <ul>
+                        <li>제조사: ASUS</li>
+                        <li>칩셋: Intel X299</li>
+                        <li>폼팩터: E-ATX</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2, style="font-size: 60px; font-weight:bold;">ASUS ROG RAMPAGE VI EXTREME ENCORE</td>
+            </tr>
+        </table>
+
+    </section>
+</body>
+
+</html>
