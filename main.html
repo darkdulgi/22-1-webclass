@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>다사와쇼핑몰</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 0px;
+        }
+
+        header {
+            width: 100%;
+        }
+        nav{
+            float:left;
+            width: 20%;
+        }
+        nav div{
+            text-align: center;
+            background-color: rgb(80, 80, 255);
+            color:white;
+            height: 300px;
+            display: block;
+            font-size: 40px;
+            animation-name: ani2;
+            animation-duration: 10s;
+        }
+
+        section {
+            width: 80%;
+            float: left;
+        }
+
+        header div {
+            display: inline-block;
+        }
+
+        table {
+            width: 100%;
+        }
+        td{
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+        }
+        td:hover{
+            font-size: 40px;
+            animation-name: ani;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        td img {
+            width: 300px;
+            height: 200px;
+        }
+        @keyframes ani {
+            0%{color:red;}
+            30%{color:greenyellow;}
+            60%{color:blue;}
+            100%{color:red;}
+        }
+        @keyframes ani2 {
+            0%{transform: translateX(-250px);}
+        }
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" width="30%">
+        <div>
+            <input type="text"> <input type="submit" value="검색">
+        </div>
+    </header>
+    <hr>
+    <nav>
+        <div>국내최고 PC부품 쇼핑몰, 다사와</div>
+    </nav>
+    <section>
+        <table>
+            <tr>
+                <td><a href="gpu/gpu.html">그래픽카드 <img src="gc.jpg"></a></td>
+                <td><a href="cpu/cpu.html">CPU <img src="cpu.jpg"></a></td>
+            </tr>
+            <tr>
+                <td><a href="mainb/mainboard.html">메인보드 <img src="mb.jpg"></a></td>
+                <td><a href="power/power.html">파워서플라이 <img src="power.jpg"></a></td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
